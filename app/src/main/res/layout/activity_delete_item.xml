@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#92B894"
+    tools:context=".deleteItemActivity">
+
+    <Button
+        android:id="@+id/changeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/changeProductPrice"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#C5D14C"
+        android:text="Change"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/changeProductPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/changeProductQty"
+        android:layout_marginStart="10dp"
+        android:layout_toRightOf="@id/textView11"
+        android:ems="10"
+        android:hint="price"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/changeProductQty"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:text="Product Price  :"
+        android:textColor="#090909"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/changeProductQty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/changeProductName"
+        android:layout_marginStart="10dp"
+        android:layout_toRightOf="@id/textView10"
+        android:ems="10"
+        android:hint="quantity"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView9"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Product Qty     :"
+        android:textColor="#070707"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/changeProductName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView8"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/textView9"
+        android:ems="10"
+        android:hint="name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView8"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Product Name:"
+        android:textColor="#0E0A0A"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/deleteButton"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:text="Change Product Details:"
+        android:textColor="#090909"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#C69F64"
+        android:text="Delete"
+        android:textColor="#271C1C"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/deleteProductName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView6"
+        android:layout_marginStart="10dp"
+        android:layout_toRightOf="@id/textView7"
+        android:ems="10"
+        android:hint="name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView6"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Product Name:"
+        android:textColor="#0C0C0C"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Delete:"
+        android:textColor="#0B0A0A"
+        android:textSize="30sp" />
+</android.widget.RelativeLayout>
